@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+This is the repository for the first alpha-blog app of the Udemy Rails Dev Course
