@@ -11,6 +11,11 @@ ruby "2.5.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+# minitest for testing, explicit version as it's not working for controller tests
+# https://github.com/seattlerb/minitest/issues/730
+gem 'minitest', '5.10.3'
+# rails-controller-testing gem required for assert_template in tests
+gem 'rails-controller-testing'
 # bcrypt for secure password authentication
 gem 'bcrypt', '~> 3.1.7'
 # pagination
